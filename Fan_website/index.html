@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<!-- My Website is like a tree cut in half...you can see the growth rings-->
+
+<body>
+    <!--I made my link bar with Jquery and added the same bar to all my HTML
+    pages for navigation-->
+    <h1>Fan Site For The WD Rascals</h1>
+    <div id="menubar">
+        <button class="linkbutton" id="home">Home</button>
+        <button class="linkbutton" id="music">Music</button>
+        <button class="linkbutton" id="tour">Tour</button>
+        <button class="linkbutton" id="about">About</button>
+    </div>
+    <!--I made the photo container after learning Bootstrap
+         and cropped the photos with Google Photos to make them the same size-->
+    <h3>The Mind Blowing Artists of WD Rascals</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+                <img src="img/photo1.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Daniel, Dubstep Consultant</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <img src="img/photo2.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Victor, Band Manager</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <img src="img/photo3.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Caroline, Piano</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <img src="img/photo4.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Jessie, Guiter</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <img src="img/photo5.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Nikita, Lead Singer and Songwriter</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <img src="img/photo6.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Jess, Vocals and Drums</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <img src="img/photo7.png" class="img-fluid" "img-thumbnail">
+                <div class="album">Andrea, Bass and Vocals</div>
+            </div>
+        </div>
+    </div>
+    <!--I made this little audio bar after learning about flexbox-->
+    <div class="flex-container">
+        <div class="flex-box">Our Lit Beats!
+        </div>
+        <div class="flex-box">
+            <audio controls>
+                <source src="sounds/Hermitude.mp3">
+            </audio>
+        </div>
+    </div>
+    <!--I used default buttons from Bootstrap-->
+    <div class="container-fluid">
+        <div class="row">
+            <a class="btn btn-primary" href="knowhere.html" role="button">Contact WD Rascals</a>
+            <a class="btn btn-primary" href="knowhere.html" role="button">Website Terms and Condition</a>
+            <a class="btn btn-primary" href="https://www.ticketmaster.ca/" role="button">Tickets</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
